@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="_css/style.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2? family= Dokdo & display=swap" rel="stylesheet">
+
     <title>Cat Photos App</title>
   </head>
   <body>
@@ -60,15 +68,31 @@
         </figure>
       </section>
 
-      <article>
-        <h2>Cat Form</h2>
-        
-      </article>
+      <h2>Cat Form</h2>
+      
+      <section>   
+        <form action="brunodyego.web@gmail.com">
+          <fieldset id="">
+            <legend>Is your cat an indoor or outdoor?</legend>
+           <input type="radio" name="indoor-outdoor" id="indor" checked>Indoor
+           <input type="radio" name="indoor-outdoor" id="ontdor">Outdoor
+          </fieldset>
+
+          <fieldset id="">
+            <legend>What's your cat's personality?</legend>
+            <label for="fIndoor"><input type="checkbox" name="personality" id="loving" checked>Loving</label>
+            <label for="fLazy"><input type="checkbox" name="personality" id="lazy">Lazy</label>
+            <label for="fEnergetic"><input type="checkbox" name="personality "id="Energetic">Energetic</label>
+          </fieldset>
+          <input type="text"><button onclick="submit()">SUBMIT</button>
+        </form>         
+      </section>
       <footer>
-        <p>&copy; BDWEB</p>
-        <a href="https://www.github.com/brunofyegoweb">GITHUB</a>
-        <a href="https://www.linkedin/in/brunodyegoweb">LINKEDIN</a>
-        <a href="https://www.instagran.com/brunodyego.web">INSTAGRAN</a>
+        <p>&copy; BDWEB <br>
+        <a href="https://www.github.com/brunodyegoweb" > <i class="ri-github-fill"></i >GitHub</a>
+        <a href="https://www.linkedin.com/in/brunodyegoweb" ><i class="ri-linkedin-fill"></i >Linkedin</a>
+        <a href="https://www.instagran.com/brunodyegoweb?r=nametag" > <i class="ri-instagram-line"></i >Instagran</a>
+      </p>
       </footer>
     </main>
   </body>

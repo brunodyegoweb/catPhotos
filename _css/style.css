@@ -1,0 +1,45 @@
+body {
+    background: black;
+    font: Normal 16pt arial;
+    color: white;
+    text-align: center;
+   
+
+    border: 2px solid red;
+}
+
+main {
+  
+}
+
+header {
+    background: rgb(49, 47, 47);
+
+
+    border: 2px solid green;
+}
+
+figure {
+    border
+}
+
+section {
+    border: 2 px solid yellow
+}
+
+footer { 
+   font-family: 'Dokdo', cursiva;
+
+   border: 2px solid blue;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+
+
