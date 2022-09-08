@@ -1,0 +1,23 @@
+.form {
+    background: rgb(247, 150, 166);
+    color: white;
+}
+fieldset {
+    border-color: white;
+    width: auto;   
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+input:hover {
+    background-color: #dddd;
+}
+
+button {
+    background: rgb(66, 111, 235);
+    color: white;
+    padding: 4px;
+}

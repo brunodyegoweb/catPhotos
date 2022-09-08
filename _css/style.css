@@ -1,36 +1,59 @@
 body {
-    background: black;
+    background:	white;
     font: Normal 16pt arial;
-    color: white;
+    color:black;
     text-align: center;
-   
-
-    border: 2px solid red;
-}
-
-main {
-  
 }
 
 header {
-    background: rgb(49, 47, 47);
+    background: rgb(247, 150, 166);
 
 
     border: 2px solid green;
 }
 
-figure {
-    border
+nave#menu {
+    display: block; /*permite que o menu flutue pela página*/
 }
 
-section {
-    border: 2 px solid yellow
+nav#menu ul {
+    list-style: none; /*retira os marcadores*/
+    text-transform: uppercase;
+    position: absolute; /*flutua dentro dapágina*/
+    top: 25px;
+    left: 900px;   
 }
 
-footer { 
-   font-family: 'Dokdo', cursiva;
+nav#menu li {
+    display: inline-block; /*um ao lado outro*/
+    background-color: #a03c62;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
 
-   border: 2px solid blue;
+nav#menu li:hover {
+    background-color: rgb(226, 108, 108);
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: rgba(135, 6, 124, 0.483);
+    text-decoration: underline;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+footer {
+    background: rgb(66, 111, 235); 
+    font-family: 'Tapestry', cursiva;
 }
 
 a:hover {
