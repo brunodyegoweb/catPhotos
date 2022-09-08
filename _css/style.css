@@ -54,6 +54,7 @@ ul, ol {
 footer {
     background: rgb(66, 111, 235); 
     font-family: 'Tapestry', cursiva;
+    color: white;
 }
 
 a:hover {
