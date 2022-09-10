@@ -53,12 +53,12 @@ ul, ol {
 
 footer {
     background: rgb(66, 111, 235); 
-    font-family: 'Tapestry', cursiva;
+    font-family: 'Amatic SC', cursive;
     color: white;
 }
 
 a:hover {
-    color: red;
+    color: white;
     text-decoration: underline;
 }
 
