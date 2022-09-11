@@ -6,10 +6,7 @@ body {
 }
 
 header {
-    background: rgb(247, 150, 166);
-
-
-    border: 2px solid green;
+    background: rgb(247, 150, 166);   
 }
 
 nave#menu {
@@ -46,6 +43,12 @@ nav#menu a:hover {
     color: rgba(135, 6, 124, 0.483);
     text-decoration: underline;
 }
+figure#cat-topo {
+    display: block;
+    position: absolute; /*flutua dentro dapágina*/
+    top: 2px;
+    left: 100px; 
+}
 
 ul, ol {
     list-style: none;
@@ -55,6 +58,7 @@ footer {
     background: rgb(66, 111, 235); 
     font-family: 'Amatic SC', cursive;
     color: white;
+    padding: 10px;
 }
 
 a:hover {
