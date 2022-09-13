@@ -1,3 +1,7 @@
+h1, p, body, button {
+    margin: 0; /*resetando */
+}
+
 body {
     background:	white;
     font: Normal 16pt arial;
@@ -17,7 +21,7 @@ nav#menu ul {
     list-style: none; /*retira os marcadores*/
     text-transform: uppercase;
     position: absolute; /*flutua dentro dapágina*/
-    top: 25px;
+    top: 10px;
     left: 900px;   
 }
 
@@ -46,8 +50,8 @@ nav#menu a:hover {
 figure#cat-topo {
     display: block;
     position: absolute; /*flutua dentro dapágina*/
-    top: 2px;
-    left: 100px; 
+    top: -55px;
+    left: -60px; 
 }
 
 ul, ol {
