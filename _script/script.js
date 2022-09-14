@@ -4,3 +4,7 @@ txtCampo= document.querySelectorAll('input#txtCampo')
     alert('w')
  }
 }
+
+function mudaFoto(foto) {
+   document.getElementById('cat-topo').src=foto
+}
