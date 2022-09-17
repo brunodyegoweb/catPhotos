@@ -47,11 +47,11 @@ nav#menu a:hover {
     color: rgba(135, 6, 124, 0.483);
     text-decoration: underline;
 }
-figure#cat-topo {
+img#cat-topo {
     display: block;
     position: absolute; /*flutua dentro dapágina*/
-    top: -55px;
-    left: -60px; 
+    top: -15px;
+    left: -10px; 
 }
 
 ul, ol {
@@ -68,6 +68,13 @@ footer {
 a:hover {
     color: white;
     text-decoration: underline;
+}
+
+div#text {
+    background-color: rgb(203, 32, 109);
+    width: 500px;
+    margin: auto;
+    padding: 10px;
 }
 
 

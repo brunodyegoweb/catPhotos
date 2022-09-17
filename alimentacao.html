@@ -6,24 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="_css/style.css" />
+
     <title>Document</title>
 </head>
+
+<script src="_script/script.js"></script>
+
 <body>
     <header>
         <h1>CatPhotoApp</h1>
         <h2>Cat Photos</h2>
 
-        <nav id="menu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="alimentacao.html">Alimentação</a></li>
-            <li><a href="saude.html">Saúde</a></li>
-          </ul>
-        </nav>
+        <img id="cat-topo"
+        src="_imagens/cat-1.png"
+        alt="
+      drawing of a loving cat"/>
+
+      <nav id="menu">
+        <ul>
+          <li
+            onmouseover="mudaFoto('_imagens/cat-health.png')"
+            onmouseout="mudaFoto('_imagens/cat-playing.png')"
+          >
+            <a href="index.html">Home</a>
+          </li>
+          <li
+            onmouseover="mudaFoto('_imagens/cat-playing.png')"
+            onmouseout="mudaFoto('_imagens/cat-health.png')"
+          >
+            <a href="alimentacao.html">Alimentação</a>
+          </li>
+          <li
+            onmouseover="mudaFoto('_imagens/cat-1.png')"
+            onmouseout="mudaFoto('_imagens/cat-playing.png')"
+          >
+            <a href="saude.html">Saúde</a>
+          </li>
+        </ul>
+      </nav>
       </header>
       <section>
-        <img src="_imagens/cat-heat.png" alt="">
+        <img id="cat-heat" src="_imagens/cat-heat.png" alt="">
       </section>
+
+      <div id="text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab tenetur aut repudiandae hic eius dolores architecto reiciendis modi obcaecati earum aperiam, odio nulla laborum aliquam sapiente saepe laudantium? Odit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab tenetur aut repudiandae hic eius dolores architecto reiciendis modi obcaecati earum aperiam, odio nulla laborum aliquam sapiente saepe laudantium? Odit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ab tenetur aut repudiandae hic eius dolores architecto reiciendis modi obcaecati earum aperiam, odio nulla laborum aliquam sapiente saepe laudantium? Odit?</p>
+      </div>
     <footer>
         <p>&copy; BDWEB <br>
         <a href="https://www.github.com/brunodyegoweb" > <i class="ri-github-fill"></i >GitHub</a>

@@ -1,5 +1,5 @@
 function submit() {
-txtCampo= document.querySelectorAll('input#txtCampo')
+txtCampo= document.querySelector('input#txtCampo')
  if(txtCampo=='') {
     alert('w')
  }

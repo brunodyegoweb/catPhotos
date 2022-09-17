@@ -20,44 +20,41 @@
 
     <title>Cat Photos App</title>
   </head>
+
+  <script src="_script/funcao.js"></script>
+  
   <body>
     <header>
       <h1>CatPhotoApp</h1>
       <h2>Cat Photos</h2>
 
-      <figure id="cat-topo">
-        <img          
+      
+        <img id="cat-topo"
           src="_imagens/cat-1.png"
           alt="
         drawing of a loving cat"
         />
-      </figure>
+     
 
       <nav id="menu">
         <ul>
-          <li>
-            <a
-              onmouseover="mudaFoto('_imagens/cat-health.jpg')"
-              onmouseout="mudaFoto('_imagens/cat-health.jpg')"
-              href="index.html"
-              >Home</a
-            >
+          <li
+            onmouseover="mudaFoto('_imagens/cat-health.png')"
+            onmouseout="mudaFoto('_imagens/cat-playing.png')"
+          >
+            <a href="index.html">Home</a>
           </li>
-          <li>
-            <a
-              onmouseover="mudaFoto('_imagens/cat-health.jpg')"
-              onmouseout="mudaFoto('_imagens/cat-health.jpg')"
-              href="alimentacao.html"
-              >Alimentação</a
-            >
+          <li
+            onmouseover="mudaFoto('_imagens/cat-playing.png')"
+            onmouseout="mudaFoto('_imagens/cat-health.png')"
+          >
+            <a href="alimentacao.html">Alimentação</a>
           </li>
-          <li>
-            <a
-              onmouseover="mudaFoto('_imagens/cat-playing.jpg')"
-              onmouseout="mudaFoto('_imagens/cat-playing.jpg')"
-              href="saude.html"
-              >Saúde</a
-            >
+          <li
+            onmouseover="mudaFoto('_imagens/cat-1.png')"
+            onmouseout="mudaFoto('_imagens/cat-playing.png')"
+          >
+            <a href="saude.html">Saúde</a>
           </li>
         </ul>
       </nav>
